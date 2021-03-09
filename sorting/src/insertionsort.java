@@ -1,10 +1,10 @@
 import java.util.Arrays;
 public class insertionsort implements Sort{
 
-    CreateArray arr;
 
-    public insertionsort(CreateArray array) {
-        this.arr = arr;
+
+    public insertionsort() {
+
     }
 
     public double[] sort(double[] arr){

@@ -2,10 +2,9 @@ import java.util.Arrays;
 
 public class selectionsort  implements Sort{
 
-    CreateArray array;
 
-    public selectionsort(CreateArray array) {
-        this.array = array;
+    public selectionsort() {
+
     }
 
     public double[] sort(double[] arr){

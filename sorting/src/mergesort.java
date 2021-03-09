@@ -1,12 +1,10 @@
 import java.util.Arrays;
 
 public class mergesort implements Sort {
-    CreateArray arr;
-    int size;
 
-    public mergesort(CreateArray arr) {
-        this.arr = arr;
+    public mergesort() {
     }
+
     public void mergeSort(double[] array) {
 
         if (array.length > 1) {
@@ -66,8 +64,8 @@ public class mergesort implements Sort {
     public double[] sort(double[] arr) {
 
         mergeSort(arr);
-        System.out.println("Current time in milliseconds: " + System.currentTimeMillis());
-        System.out.println(Arrays.toString(arr));
+        //System.out.println("Current time in milliseconds: " + System.currentTimeMillis());
+        //System.out.println(Arrays.toString(arr));
 
         return arr;
     }

@@ -1,5 +1,8 @@
 public class bubblesort implements Sort {
 
+    public bubblesort() {
+    }
+
     public double[] sort(double[] arr){
 
         for (int i = 0; i < arr.length; i++){
