@@ -1,11 +1,7 @@
-import java.time.Duration;
-import java.time.Instant;
-import java.util.Arrays;
 
 public class quicksort implements Sort{
 
     public quicksort() {
-
     }
 
     public static void quicksort(double [] arr, int low, int high){
@@ -48,9 +44,7 @@ public class quicksort implements Sort{
         int low = 0;
         int high = arr.length-1;
 
-        //System.out.println("Array before quicksort: "+Arrays.toString(arr));
         quicksort(arr, low,high);
-       // System.out.println("Array after quicksort: "+Arrays.toString(arr));
 
         return arr;
     }

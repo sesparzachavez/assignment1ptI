@@ -1,8 +1,11 @@
-import java.util.Arrays;
 import java.util.Random;
 public class CreateArray {
 
-
+    /**
+     * creates and returns an array of random doubles depending on the size being passed in by the loop in the driver
+     * @param size
+     * @return
+     */
     public static double[] createArray(int size) {
         double[] arr = new double[size];
         Random rd = new Random();

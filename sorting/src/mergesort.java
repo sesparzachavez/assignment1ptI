@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class mergesort implements Sort {
 
@@ -62,11 +61,7 @@ public class mergesort implements Sort {
 
     @Override
     public double[] sort(double[] arr) {
-
         mergeSort(arr);
-        //System.out.println("Current time in milliseconds: " + System.currentTimeMillis());
-        //System.out.println(Arrays.toString(arr));
-
         return arr;
     }
 }

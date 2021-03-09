@@ -12,6 +12,15 @@ public class driver {
         }
     }
 
+    /**
+     * size of the different array sizes tested for each sorting algorithm
+     * @param sizeOf
+     *
+     * an object for each algorithm is created and Sort's(interface) sort is called for each
+     * an array of random doubles is populated in the CreateArray class for each algorithm being tested
+     *
+     */
+
     public static void testAlgos(int sizeOf){
         System.out.println("#####"+sizeOf+"####");
         double [] array= CreateArray.createArray(sizeOf);
