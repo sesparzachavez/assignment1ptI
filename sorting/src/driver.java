@@ -23,7 +23,9 @@ public class driver {
 
     public static void testAlgos(int sizeOf){
         System.out.println("#####"+sizeOf+"####");
+
         double [] array= CreateArray.createArray(sizeOf);
+
         Sort quickSort = new quicksort();
         long quickStartTime = System.currentTimeMillis();
         array = quickSort.sort(array);
