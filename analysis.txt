@@ -1,6 +1,7 @@
 Run time:
 Quicksort has a worst run time of O(n^2) although it is not likely to occur, and so, we go by its average running time
 which is O(nlogn) which is the same as the worst and best case of mergesort.
+
 Bubblesort, insertion sort, and selection sort all have a worst running time of O(n^2).
 
 Space time:
